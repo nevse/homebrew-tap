@@ -20,5 +20,5 @@ cask "conva" do
   desc "Simple .net project converter"
   homepage "https://github.com/nevse/conva"
 
-  app "conva"
+  binary "conva"
 end
