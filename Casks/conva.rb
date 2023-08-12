@@ -5,7 +5,7 @@ cask "conva" do
     sha256 "830d68c2d67d5cafa5d2d8f10070474faa959c03e4b93a970260b66c8ceca84c"
   end
   on_intel do
-    url "https://github.com/nevse/conva/releases/download/v#{version}/conva-darwin-amd64.tar.gz"
+    url "https://github.com/nevse/conva/releases/download/v#{version}/conva-darwin-arm64.tar.gz"
     sha256 "830d68c2d67d5cafa5d2d8f10070474faa959c03e4b93a970260b66c8cecf84c"
   end
 
