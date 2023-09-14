@@ -1,13 +1,13 @@
 cask "conva" do
-  version "1.1.1"
+  version "1.1.2"
 
   on_arm do
-    sha256 "f728f3cedd60b1b5a3aed4f3b0fbee813bd369fc023eff32d53520da0fe7b130"
+    sha256 "1ef0db1b308ee43e79bc89ca15a12b9a93a95e6c73a907087b30ebb089b0ffac"
 
     url "https://github.com/nevse/conva/releases/download/v#{version}/conva-darwin-arm64.tar.gz"
   end
   on_intel do
-    sha256 "86177ac77ede13a590928ee88a4e6d87022c23adee7d85347bc1723e24733605"
+    sha256 "13c4257173b48055b1df5e6c786a7be50da7e17ed7a6b40f0dcb8373011c1e77"
 
     url "https://github.com/nevse/conva/releases/download/v#{version}/conva-darwin-amd64.tar.gz"
   end
