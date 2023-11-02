@@ -1,13 +1,13 @@
 cask "svgtopng" do
-  version "0.0.1"
+  version "0.0.3"
 
   on_arm do
-    sha256 "c459c8d06c2be9dcd6317733838da4c4e72a9a08cfce2e12220aa723abe27850"
+    sha256 "d80553cf308d3305939e0a1582dd44f57899e4a662502b52eb775cbd1ad982f9"
 
     url "https://github.com/nevse/svgtopng/releases/download/v#{version}/svgtopng-darwin-arm64.tar.gz"
   end
   on_intel do
-    sha256 "217381e01736433112beda8bd1489529f8256ad17271194496feceb9e47daddd"
+    sha256 "7c713a2f50f7a3ef2131c328400dc20970437869516a39d590eb792c1b8a8179"
 
     url "https://github.com/nevse/svgtopng/releases/download/v#{version}/svgtopng-darwin-amd64.tar.gz"
   end
