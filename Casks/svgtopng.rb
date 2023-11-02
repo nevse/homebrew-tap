@@ -17,7 +17,7 @@ cask "svgtopng" do
   end
 
   name "svgtopng"
-  desc "Svg to png for maui lib projects"
+  desc "Simple console tool for converting svg image to png for maui lib projects"
   homepage "https://github.com/nevse/svttopng"
 
   binary "svgtopng"
